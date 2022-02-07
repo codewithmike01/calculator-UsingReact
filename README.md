@@ -9,9 +9,9 @@
 - React
 - Babel
 
-## Live Demo
+## Live Demo (Not avialable yet)
 
-[Live Demo Link](https://livedemo.com)
+<!-- [Live Demo Link](https://livedemo.com) -->
 
 ## Getting Started
 
