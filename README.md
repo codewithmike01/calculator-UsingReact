@@ -9,11 +9,13 @@
 - React
 - Babel
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 ## Getting Started
+
+<!-- https://ginohmk.github.io/calculator-UsingReact/ -->
 
 To get a local copy up and running follow these simple example steps.
 
