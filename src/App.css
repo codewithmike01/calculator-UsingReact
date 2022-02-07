@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 65%;
+  width: 520px;
+  border: 2px solid rgb(206, 204, 204);
+}
+
+.output {
+  font-size: 1.5em;
+  padding: 8px;
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+}
+
+.input {
+  width: 100%;
+}
+
+.section-button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  font-size: 1.3em;
+  height: 70px;
+  outline: 2px solid rgb(206, 204, 204);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zero {
+  grid-column: 1/3;
+}
+
+.colored {
+  background-color: #f8a252;
+}
