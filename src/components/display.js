@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 function Display(props) {
   const { valueTotal } = props;
+
   return (
     <div className="output">
       <p>{valueTotal}</p>
