@@ -113,6 +113,12 @@ nav ul span {
   font-size: 1.7em;
 }
 
+footer p {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .main p {
   line-height: 1.6em;
   margin-top: 50px;
@@ -142,10 +148,4 @@ footer {
   bottom: 0;
   right: 0;
   left: 0;
-}
-
-footer p {
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
 }
