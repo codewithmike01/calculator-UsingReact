@@ -12,11 +12,15 @@ html {
 
 .App {
   padding-top: 60px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1024px;
+  padding-left: 25px;
+  padding-right: 20px;
 }
 
 .container {
-  margin: 0 auto;
   max-width: 65%;
   width: 520px;
   border: 2px solid rgb(206, 204, 204);
@@ -59,4 +63,89 @@ button {
 
 .colored {
   background-color: #f8a252;
+}
+
+/* Header Full web */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.header div {
+  font-size: 3em;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+nav ul li {
+  list-style-type: none;
+  color: blue;
+  cursor: pointer;
+}
+
+nav ul span {
+  margin-left: 10px;
+  font-size: 1.3em;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Main Home */
+.main {
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.main h2 {
+  font-size: 1.7em;
+}
+
+.main p {
+  line-height: 1.6em;
+  margin-top: 50px;
+}
+
+/* Quote */
+
+.quote {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 8em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.quote span {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: gray;
+  padding-top: 20px;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
 }

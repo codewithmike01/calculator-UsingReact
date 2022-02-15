@@ -1,5 +1,3 @@
-/* eslint-disable operator-linebreak */
-/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Button from './Button';
@@ -22,6 +20,9 @@ export default function Calculator() {
 
   return (
     <div className="App">
+      <div>
+        <h2>Lets do some math!</h2>
+      </div>
       <div className="container">
         <Display valueTotal={` ${state.next ? state.next : state.total}`} />
         <div className="input">
