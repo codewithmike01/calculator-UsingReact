@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TEst for Home component Home snapShot test 1`] = `
+exports[`Test for Button component SnapShot Home snapShot test 1`] = `
 <button
   className="operation"
+  data-testid="AC"
   onClick={[Function]}
   type="button"
 >

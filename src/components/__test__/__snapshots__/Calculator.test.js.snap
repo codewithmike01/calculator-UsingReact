@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TEst for Home component Home snapShot test 1`] = `
+exports[`Test for Calculate component Home snapShot test 1`] = `
 <div
   className="App"
+  data-testid="calculate-data"
 >
   <div>
     <h2>
@@ -15,7 +16,9 @@ exports[`TEst for Home component Home snapShot test 1`] = `
     <div
       className="output"
     >
-      <p>
+      <p
+        data-testid="display-data"
+      >
          0
       </p>
     </div>
@@ -27,6 +30,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
       >
         <button
           className="operation"
+          data-testid="AC"
           onClick={[Function]}
           type="button"
         >
@@ -34,6 +38,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="+/-"
           onClick={[Function]}
           type="button"
         >
@@ -41,6 +46,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="%"
           onClick={[Function]}
           type="button"
         >
@@ -48,6 +54,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation colored"
+          data-testid="÷"
           onClick={[Function]}
           type="button"
         >
@@ -59,6 +66,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
       >
         <button
           className="operation"
+          data-testid="7"
           onClick={[Function]}
           type="button"
         >
@@ -66,6 +74,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="8"
           onClick={[Function]}
           type="button"
         >
@@ -73,6 +82,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="9"
           onClick={[Function]}
           type="button"
         >
@@ -80,6 +90,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation colored"
+          data-testid="x"
           onClick={[Function]}
           type="button"
         >
@@ -91,6 +102,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
       >
         <button
           className="operation"
+          data-testid="4"
           onClick={[Function]}
           type="button"
         >
@@ -98,6 +110,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="5"
           onClick={[Function]}
           type="button"
         >
@@ -105,6 +118,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="6"
           onClick={[Function]}
           type="button"
         >
@@ -112,6 +126,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation colored"
+          data-testid="-"
           onClick={[Function]}
           type="button"
         >
@@ -123,6 +138,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
       >
         <button
           className="operation"
+          data-testid="1"
           onClick={[Function]}
           type="button"
         >
@@ -130,6 +146,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="2"
           onClick={[Function]}
           type="button"
         >
@@ -137,6 +154,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="3"
           onClick={[Function]}
           type="button"
         >
@@ -144,6 +162,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation colored"
+          data-testid="+"
           onClick={[Function]}
           type="button"
         >
@@ -155,6 +174,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
       >
         <button
           className="operation zero"
+          data-testid="0"
           onClick={[Function]}
           type="button"
         >
@@ -162,6 +182,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation"
+          data-testid="."
           onClick={[Function]}
           type="button"
         >
@@ -169,6 +190,7 @@ exports[`TEst for Home component Home snapShot test 1`] = `
         </button>
         <button
           className="operation colored"
+          data-testid="="
           onClick={[Function]}
           type="button"
         >

@@ -3,6 +3,7 @@
 exports[`TEst for Home component Home snapShot test 1`] = `
 <div
   className="main"
+  data-testid="main-container"
 >
   <h2>
     Welcome to our page!

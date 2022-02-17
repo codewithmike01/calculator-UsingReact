@@ -1,8 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TEst for Home component Home snapShot test 1`] = `
+exports[`TEst for Footer component Footer snapShot test 1`] = `
 <footer>
-  <p>
+  <p
+    data-testid="footer-data"
+  >
     footer
   </p>
 </footer>

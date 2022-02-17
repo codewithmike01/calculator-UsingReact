@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test for Home component Home snapShot test 1`] = `
+exports[`Test for Home component Quote snapShot test 1`] = `
 <div
   className="quote"
+  data-testid="quote-data"
 >
   <p>
     Mathematics is not about numbers,equations,computation or algorithm: it is about understanding. -

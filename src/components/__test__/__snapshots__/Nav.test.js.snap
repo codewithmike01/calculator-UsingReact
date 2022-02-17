@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Nav Bar Component Testing Nav Bar  1`] = `
+exports[`Test Nav Bar Component Testing Nav Bar SnapSjot  1`] = `
 <header
   className="header"
+  data-testid="nav-data"
 >
   <div>
     Math Magicians

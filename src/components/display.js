@@ -6,7 +6,7 @@ function Display(props) {
 
   return (
     <div className="output">
-      <p>{valueTotal}</p>
+      <p data-testid="display-data">{valueTotal}</p>
     </div>
   );
 }

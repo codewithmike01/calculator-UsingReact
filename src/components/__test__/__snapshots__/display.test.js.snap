@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Nav Bar Component Testing Nav Bar  1`] = `
+exports[`Test Display Component Testing Diplay snapShot  1`] = `
 <display
   valueTotal={6}
 />
