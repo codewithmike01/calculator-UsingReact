@@ -6,7 +6,7 @@ describe('TEst for Home component', () => {
   test('Home snapShot test', () => {
     const tree = renderer
       .create(
-        <Button perform={() => test('AC')} title="AC" className="operation" />
+        <Button perform={() => test('AC')} title="AC" className="operation" />,
       )
       .toJSON();
 
