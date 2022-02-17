@@ -5,7 +5,7 @@ import Calculator from '../Calculator';
 
 afterEach(cleanup);
 describe('Test for Calculate component', () => {
-  test('Test for Rendering Calculator Component ', () => {
+  test('Test for Rendering Calculator Components', () => {
     render(<Calculator />);
     const calculatorElement = screen.getByTestId('calculate-data');
 

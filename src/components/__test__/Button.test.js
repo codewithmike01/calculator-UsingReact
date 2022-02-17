@@ -1,6 +1,6 @@
 /* eslint-disable comma-dangle */
 import React from 'react';
-import { cleanup, render, screen } from '@testing-library/react';
+import { cleanup, render, screen, fireEvent } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import Button from '../Button';
 
@@ -33,3 +33,15 @@ describe('Test for Button component SnapShot', () => {
     expect(tree).toMatchSnapshot();
   });
 });
+
+describe('Test if click events', () => {
+  test('is event captured', (done) => {
+    const perfom = (evt) => {
+      expect(evt.target.value).toBe('AC');
+      done();
+    }
+    const { getByText } = render(<Button perform={perfom} title="AC" className="operation" />);
+    const node = getByText('AC');
+    fireEvent.click(node, {target: {value: 'AC'}});
+  })
+})
