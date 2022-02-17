@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TEst for Home component Home snapShot test 1`] = `
+<div
+  className="main"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p>
+    lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel
+  </p>
+  <p>
+    lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontel lorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel lorem ipsumcontellorem ipsumcontel
+  </p>
+</div>
+`;
