@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Quote() {
   return (
-    <div className="quote">
+    <div className="quote" data-testid="quote-data">
       <p>
         Mathematics is not about numbers,equations,computation or algorithm: it
         is about understanding. -<span>William Paul Thurston</span>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <header className="header">
+    <header className="header" data-testid="nav-data">
       <div>Math Magicians</div>
       <nav>
         <ul>

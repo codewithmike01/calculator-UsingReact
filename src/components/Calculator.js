@@ -19,7 +19,7 @@ export default function Calculator() {
   };
 
   return (
-    <div className="App">
+    <div className="App" data-testid="calculate-data">
       <div>
         <h2>Lets do some math!</h2>
       </div>

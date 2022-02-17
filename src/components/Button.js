@@ -5,8 +5,14 @@ function Button(props) {
   const { title } = props;
   const { className } = props;
   const { perform } = props;
+
   return (
-    <button onClick={perform} className={className} type="button">
+    <button
+      onClick={perform}
+      className={className}
+      data-testid={title}
+      type="button"
+    >
       {title}
     </button>
   );
