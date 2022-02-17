@@ -364,7 +364,7 @@ describe('User pressed an operation button and there is an existing operation', 
   });
 });
 
-describe('no operation yet, but the user typed one', () => {
+describe('no operation yet but the user typed one', () => {
   test('Should  save the operation', () => {
     const obj = {
       total: null,

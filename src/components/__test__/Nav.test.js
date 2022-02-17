@@ -7,7 +7,7 @@ import NavBar from '../Nav';
 
 afterEach(cleanup);
 describe('Test Nav Bar Component', () => {
-  test('Test for rendering Nav Component', () => {
+  test('Test for rendering Nav Components', () => {
     render(
       <Router>
         <NavBar />

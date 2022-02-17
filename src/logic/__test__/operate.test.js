@@ -1,6 +1,6 @@
 import operate from '../operate';
 /* OPERATE.JS  */
-describe('Test for Operate.js', () => {
+describe('Test for Operate.js file', () => {
   test('operation for Addition', () => {
     const numOne = 6;
     const numTwo = 3;

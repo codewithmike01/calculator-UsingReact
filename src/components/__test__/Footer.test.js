@@ -5,7 +5,7 @@ import Footer from '../Footer';
 
 afterEach(cleanup);
 describe('TEst for Footer component', () => {
-  test('Test Render Component for Footer', () => {
+  test('Test Render Components for Footer', () => {
     render(<Footer />);
 
     const footerElement = screen.getByTestId('footer-data');

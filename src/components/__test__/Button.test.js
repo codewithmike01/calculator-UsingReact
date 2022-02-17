@@ -1,11 +1,13 @@
 /* eslint-disable comma-dangle */
 import React from 'react';
-import { cleanup, render, screen, fireEvent } from '@testing-library/react';
+import {
+  cleanup, render, screen, fireEvent
+} from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import Button from '../Button';
 
 afterEach(cleanup);
-describe('React Test for Button', () => {
+describe('React Test for Buttons', () => {
   test('Button Test', () => {
     const test = () => 3 + 2;
     render(
@@ -39,9 +41,11 @@ describe('Test if click events', () => {
     const perfom = (evt) => {
       expect(evt.target.value).toBe('AC');
       done();
-    }
-    const { getByText } = render(<Button perform={perfom} title="AC" className="operation" />);
+    };
+    const { getByText } = render(
+      <Button perform={perfom} title="AC" className="operation" />
+    );
     const node = getByText('AC');
-    fireEvent.click(node, {target: {value: 'AC'}});
-  })
-})
+    fireEvent.click(node, { target: { value: 'AC' } });
+  });
+});

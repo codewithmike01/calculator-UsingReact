@@ -5,7 +5,7 @@ import Home from '../Home';
 
 afterEach(cleanup);
 describe('TEst for Home component', () => {
-  test('Test Rendering for Home Component', () => {
+  test('Test Rendering for Home Components', () => {
     render(<Home />);
 
     const homeElement = screen.getByTestId('main-container');

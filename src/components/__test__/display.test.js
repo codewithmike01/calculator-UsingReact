@@ -6,7 +6,7 @@ import Display from '../display';
 
 afterEach(cleanup);
 describe('Test Display Component', () => {
-  test('Test Component  Rendering for Display', () => {
+  test('Test Components  Rendering for Display', () => {
     render(<Display valueTotal="78" />);
 
     const displayElement = screen.getByTestId('display-data');

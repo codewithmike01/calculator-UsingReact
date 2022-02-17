@@ -5,7 +5,7 @@ import Quote from '../Quote';
 
 afterEach(cleanup);
 describe('Test for Home component', () => {
-  test('Test rendering for Quote Component', () => {
+  test('Test rendering for Quote Components', () => {
     render(<Quote />);
 
     const quoteElement = screen.getByTestId('quote-data');
