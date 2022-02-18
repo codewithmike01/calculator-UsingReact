@@ -38,6 +38,15 @@ html {
   color: #fff;
 }
 
+.top-display {
+  margin-top: -25px;
+  font-size: 0.9em;
+}
+
+.down-display {
+  margin-bottom: -40px;
+}
+
 .input {
   width: 100%;
 }
