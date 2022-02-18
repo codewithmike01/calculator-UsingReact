@@ -7,7 +7,7 @@ import Display from '../display';
 afterEach(cleanup);
 describe('Test Display Component', () => {
   test('Test Components  Rendering for Display', () => {
-    render(<Display valueTotal="78" />);
+    render(<Display curOperand="78" prevOperand="5" operation="+" />);
 
     const displayElement = screen.getByTestId('display-data');
     const displayContent = displayElement.textContent;
@@ -16,7 +16,9 @@ describe('Test Display Component', () => {
   });
 
   test('Testing Diplay snapShot ', () => {
-    const tree = renderer.create(<display valueTotal={6} />).toJSON();
+    const tree = renderer
+      .create(<Display prevOperand="3" operation="+" curOperand="78" />)
+      .toJSON();
 
     expect(tree).toMatchSnapshot();
   });
