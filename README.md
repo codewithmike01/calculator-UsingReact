@@ -11,7 +11,7 @@
 - React
 - Babel
 
-## Live Demo (Not avialable yet)
+## Live Demo
 [Live link one](https://mike-magic-calculator.netlify.app/) <br>
 [Live link two](https://calculate-mike.herokuapp.com/calculator)
 
