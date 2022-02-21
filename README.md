@@ -3,6 +3,8 @@
 # calculator-UsingReact
 
 > This is a simple calculator created using React, it performs basic calculations like addition, substraction,multiplication and devision. Both on franctions and whole numbers.
+<br> <br>
+![calculator](https://user-images.githubusercontent.com/58771507/154926788-2930dfce-d1a8-4cdb-8a7f-22dfb60292d3.PNG)
 
 ## Built With
 
