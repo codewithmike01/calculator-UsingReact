@@ -17,9 +17,16 @@ exports[`Test for Calculate component Home snapShot test 1`] = `
       className="output"
     >
       <p
+        className="top-display"
+      >
+        0
+        
+      </p>
+      <p
+        className="down-display "
         data-testid="display-data"
       >
-         0
+        
       </p>
     </div>
     <div

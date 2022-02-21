@@ -1,7 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test Display Component Testing Diplay snapShot  1`] = `
-<display
-  valueTotal={6}
-/>
+<div
+  className="output"
+>
+  <p
+    className="top-display"
+  >
+    3
+    +
+  </p>
+  <p
+    className="down-display "
+    data-testid="display-data"
+  >
+    78
+  </p>
+</div>
 `;

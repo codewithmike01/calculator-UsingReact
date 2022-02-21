@@ -7,7 +7,7 @@ export default function Calculator() {
   const [state, setState] = useState({
     total: '0',
     operation: null,
-    nex: null,
+    next: null,
   });
 
   const test = (val) => {
@@ -18,13 +18,19 @@ export default function Calculator() {
     setState(result);
   };
 
+  const { total, operation, next } = state;
+
   return (
     <div className="App" data-testid="calculate-data">
       <div>
         <h2>Lets do some math!</h2>
       </div>
       <div className="container">
-        <Display valueTotal={` ${state.next ? state.next : state.total}`} />
+        <Display
+          prevOperand={total}
+          operation={operation || ''}
+          curOperand={next || ''}
+        />
         <div className="input">
           <div className="section-button">
             <Button
