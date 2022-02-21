@@ -10,6 +10,7 @@
 - Babel
 
 ## Live Demo (Not avialable yet)
+[Live link one](https://mike-magic-calculator.netlify.app/)
 
 <!-- [Live Demo Link](https://livedemo.com) -->
 
